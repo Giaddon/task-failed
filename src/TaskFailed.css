@@ -1,0 +1,45 @@
+.task-failed-dialog {
+  padding: 0;
+  border-radius: 4px;
+  border: 3px solid #245DDA;
+  min-width: 230px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EBE8D7;
+}
+
+.task-failed-dialog > button {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.task-failed-dialog__command-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #245DDA;
+  color: white;
+  padding: 3px;
+}
+
+.task-failed-dialog__command-bar > button {
+  background-color: darkorange;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.task-failed-dialog__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60px;
+}
+
+.task-failed-dialog__content span:first-child {
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 28px;
+  height: 35px;
+  width: 35px;
+}
